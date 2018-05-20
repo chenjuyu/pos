@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" android:gravity="center_vertical"> 
+  
+  <TextView
+    android:id="@+id/mTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="ddd" /> 
+  
+   <RelativeLayout
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:gravity="right" 
+    android:padding="10dp"> 
+    <TextView
+      android:id="@+id/mTextView01"
+      android:layout_alignParentLeft="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="范例一" /> 
+    <Button
+      android:id="@+id/mButton01"
+      android:layout_alignParentRight="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="发送1" /> 
+    </RelativeLayout> 
+  
+    <RelativeLayout
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:gravity="right" 
+    android:padding="10dp"> 
+    <TextView
+      android:id="@+id/mTextView02"
+      android:layout_alignParentLeft="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="范例二" /> 
+    <Button
+      android:id="@+id/mButton02"
+      android:layout_alignParentRight="true"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="发送2" /> 
+    </RelativeLayout> 
+     <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/line_chart"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="300dp"
+      
+        android:background="#ffffff" />
+</LinearLayout> 
